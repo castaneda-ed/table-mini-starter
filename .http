@@ -7,11 +7,11 @@ GET {{host}}/restaurants
 GET {{host}}/restaurants/2
 
 ### Make new reservation to restaurant
-POST {{host}}/restaurants/2/reservations
+POST {{host}}/restaurants/3/reservations
 Content-Type: application/json
 
 {
-  "name": "Hungry Guest",
-  "email": "super.duper@hungry.com",
-  "partySize": 3
+  "name": "Hungryyyyyy Guest",
+  "email": "mega.super.duper@hungry.com",
+  "partySize": 10
 }
